@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_courses"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zpanel.anderson.zebaki.About_agent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            android:layout_centerHorizontal="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <TextView
+                    android:text="Why you need zebaki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/textView2" />
+                <TextView
+                    android:text="You can make money, and there exists no other easier way than raking in thousands through simple swipes and clicks on your screen. You can register an exclusive business and be the only one taking clients to them. zebaki will respect this and this particular business will be paying you exclusively for being their marketer. email zebaki to arrage this deal. "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView2"
+                    android:id="@+id/textView3" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card1"
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+
+            android:layout_centerHorizontal="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <TextView
+                    android:text="Typical work day at zebaki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/ambassador" />
+                <TextView
+                    android:text="With the downloaded application:-having a friend who needs a dentist?Simply browse through registered dentist professionals list. get the one who offers the most for agents who send cliens to them, pick their ID, GET on the refferals tab, send your friend to them and well, you are potential $50 richaer through this simple activity. After this, walk up to town, meet your favorite computer seller, sign him up as a business and negotiate an amount you would want him to pay you for sendig buyers to him, wollah!you have a job, that easy."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ambassador"
+                    android:id="@+id/ambassador1" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/card2"
+            android:layout_below="@+id/card1"
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+
+
+            android:layout_centerHorizontal="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <TextView
+                    android:text="REGISTERED BUSINESS IDs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/me" />
+                <Button
+                    android:text="Business IDS"
+                    android:textColor="#375ee9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="88dp"
+                    android:id="@+id/buttonx"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+
+            android:layout_centerHorizontal="true" >
+
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

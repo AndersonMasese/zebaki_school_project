@@ -1,0 +1,265 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="com.zpanel.anderson.zebaki.ParseJSON">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_parse_json"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+
+
+        tools:context="com.zpanel.anderson.iat.ParseJSON">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+
+
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#d4d3d3"
+
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACCOUNT ID:"
+                android:id="@+id/account"
+                android:paddingBottom="0dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#f7f6f6"
+            android:layout_centerHorizontal="true" >
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_alignRight="@+id/account"
+
+
+
+                android:paddingTop="0dp"
+
+                android:id="@+id/editTextID" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card2"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card1"
+            android:layout_marginTop="4dp"
+
+
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#d4d3d3"
+
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOG TIME:"
+                android:id="@+id/textlog"
+
+                android:paddingBottom="0dp"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#f7f6f6"
+            android:layout_centerHorizontal="true" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingTop="0dp"
+                android:layout_alignRight="@+id/textlog"
+                android:id="@+id/editTextUsername" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card3"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card2"
+            android:layout_marginTop="4dp"
+
+
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#d4d3d3"
+
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL REFERRALS:"
+                android:id="@+id/referrals"
+
+                android:paddingBottom="0dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#f7f6f6"
+            android:layout_centerHorizontal="true" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingTop="0dp"
+                android:layout_alignRight="@+id/referrals"
+                android:id="@+id/editTextID3" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card4"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card3"
+            android:layout_marginTop="4dp"
+
+
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#d4d3d3"
+
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PENDING ACCOUNT TOTAL:"
+                android:id="@+id/pending"
+
+                android:paddingBottom="0dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#f7f6f6"
+            android:layout_centerHorizontal="true" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingTop="0dp"
+                android:layout_alignRight="@+id/pending"
+                android:id="@+id/editTextID1" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card5"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card4"
+            android:layout_marginTop="4dp"
+
+
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#d4d3d3"
+
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPROVED ACCOUNT TOTAL:"
+                android:id="@+id/approved"
+
+                android:paddingBottom="0dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardBackgroundColor="#f7f6f6"
+            android:layout_centerHorizontal="true" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingTop="0dp"
+                android:layout_alignRight="@+id/approved"
+                android:id="@+id/editTextID2" />
+        </android.support.v7.widget.CardView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:visibility="gone"
+            android:scrollbars="vertical"
+            android:id="@+id/textViewJSON" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_courses"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zpanel.anderson.zebaki.About_business">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+            android:layout_centerHorizontal="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <TextView
+                    android:text="Why you need zebaki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/textView2" />
+                <TextView
+                    android:text="You get an absolutely free advertisement platform. Therefore, you will get a public audience and what you are doing by uploading your business description. This is not attached to the fact that you are giving out rewards to people referring clients to you or not(by indicating a reward amount of $0). Whether you are a consulting teacher, doctor, clothes or electronics dealer, this is your space. Unlike other online advertising companies such as facebook or google where you pay for non-assured sales, zebaki will only charge you after you have actually sold, and you decide what to pay!"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView2"
+                    android:id="@+id/textView3" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card1"
+
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+
+            android:layout_centerHorizontal="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <TextView
+                    android:text="Again..."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/ambassador" />
+                <TextView
+                    android:text="Do you want to get more clients? Whether you are selling your services or products, zebaki system will ensure you increase your profits and get more clients. To achieve this, you will need to register and upload your business details such as description and addresses. This will make you visible throughout all zebaki apps worldwide, therefore giving you free a advertisement platform. To make more people refer clients to you, indicate a reward amount for anyone who succeffuly refers  a client to you. You may choose a reward amount of at least $0 and no upper bound. For every client referred to you over zebaki and on whom you indicated a reward amount, make twice the payments you indicated on your profile to zebaki which will then pay the agent the actual amount."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ambassador"
+                    android:id="@+id/ambassador1" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/card2"
+            android:layout_below="@+id/card1"
+            card_view:theme="@style/Base.DialogWindowTitleBackground.AppCompat"
+            card_view:cardCornerRadius="4dp"
+
+
+            android:layout_centerHorizontal="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+                <TextView
+                    android:text="REGISTERED BUSINESS IDs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/me" />
+                <Button
+                    android:text="Business IDS"
+                    android:textColor="#375ee9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="88dp"
+                    android:id="@+id/buttonx"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+
+            </RelativeLayout>
+
+
+            android:layout_centerHorizontal="true" >
+
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
