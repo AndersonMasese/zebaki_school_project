@@ -62,12 +62,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="phone"
-                android:ems="10"
+                android:ems="14"
                 android:background="@null"
 
                 android:layout_marginTop="3dp"
                 android:id="@+id/editText6"
-                android:hint="Phone" />
+                android:hint="Telephone [Mpesa enabled]" />
 
             </android.support.v7.widget.CardView>
 
@@ -87,13 +87,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:ems="10"
+                android:ems="20"
                 android:background="@null"
 
 
                 android:layout_marginTop="3dp"
                 android:id="@+id/editText7"
-                android:hint="Email Address" />
+                android:hint="Email Address [Paypal enabled]" />
 
             </android.support.v7.widget.CardView>
 

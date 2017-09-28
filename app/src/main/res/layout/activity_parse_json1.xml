@@ -37,7 +37,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ID" />
+        android:text="EMAIL ADDRESS" />
 
     <EditText
         android:layout_width="match_parent"
@@ -57,7 +57,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="REWARD IN USD" />
+        android:text="PAYABLE COMMISSION IN USD" />
 
     <EditText
         android:layout_width="match_parent"

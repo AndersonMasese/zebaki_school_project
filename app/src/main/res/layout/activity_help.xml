@@ -39,8 +39,8 @@
                 android:layout_centerHorizontal="true"
                 android:id="@+id/textView2" />
             <TextView
-                android:text="Zebaki, Where Pros meet clients, and you get paid for making them meet!There are two registration options.Agent registration and business registration.Using the email option to the left pane, registered businesses can optionally access their online zebaki account and interact with clients being referred to them.Businesses can also optionally confirm received clients although this can be done by zebaki.For agent users, one needs to register and use these credentials to log into zebaki for account access or refer clients to businesses inorder tobe paid.Payment claims can be made on the left panel by emailing  zebaki.Copy paste the registration ID of the registered businesses.
-                Zebaki will pay you the indicated value on each successful referral made."
+                android:text="Zebaki, Where Pros meet clients, and you get paid for making them meet!There are two registration options.Agent registration and business registration.Using the email option to the left pane, registered businesses can optionally access their online zebaki account and interact with clients being sold to them.Businesses can also optionally confirm received clients although this can be done by zebaki.For agent users, one needs to register and use these credentials to log into zebaki for account access or become agents fo registered businesses inorder to be paid.Payment claims can be made on the left panel by emailing  zebaki.Copy paste the emailaddress of the registered businesses.
+                Zebaki will pay you the indicated value less service fee on each successful sales marketing made."
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textView2"

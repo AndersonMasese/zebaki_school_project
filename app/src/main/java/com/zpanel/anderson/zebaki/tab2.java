@@ -100,7 +100,7 @@ public class tab2 extends Fragment {
 
 
                                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                                builder.setMessage("Referral operation successful")
+                                builder.setMessage("Marketing operation successful")
                                         .setNegativeButton("OK", null)
                                         .create()
                                         .show();

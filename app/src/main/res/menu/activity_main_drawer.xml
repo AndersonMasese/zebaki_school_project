@@ -22,7 +22,7 @@
             <item
                 android:id="@+id/nav_gallery"
 
-                android:title="View referrals" />
+                android:title="My referrals account" />
 
         </menu>
 

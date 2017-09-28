@@ -7,31 +7,33 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class Professionals extends AppCompatActivity implements View.OnClickListener {
-public TextView highschools,universities,lawfirms,businesspeople,doctors,nurses,primaryscchoolteachers,highschoolteachers,musictechers,lawyers;
-    public TextView developer,hotel,beautician,transport,retailer;
+public Button highschools,universities,lawfirms,businesspeople,doctors,nurses,primaryscchoolteachers,highschoolteachers,musictechers,lawyers;
+    public Button developer,hotel,beautician,transport,retailer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_professionals);
-        highschools=(TextView)findViewById(R.id.highscool);
-        universities=(TextView)findViewById(R.id.universities);
-        lawfirms=(TextView)findViewById(R.id.lawfirms);
-        businesspeople=(TextView)findViewById(R.id.businesspeople);
-        doctors=(TextView)findViewById(R.id.doctors);
-        nurses=(TextView)findViewById(R.id.nurses);
-        primaryscchoolteachers=(TextView)findViewById(R.id.primaryschoolteachers);
-        highschoolteachers=(TextView)findViewById(R.id.highschoolteachers);
-        musictechers=(TextView)findViewById(R.id.musicteachers);
-        lawyers=(TextView)findViewById(R.id.lawyers);
-        developer=(TextView)findViewById(R.id.softwareDevelopers);hotel=(TextView)findViewById(R.id.hotelAccommodation);beautician=(TextView)findViewById(R.id.beauticians);transport=(TextView)findViewById(R.id.travelTransport);retailer=(TextView)findViewById(R.id.retailers);
+        highschools=(Button) findViewById(R.id.highscool);
+        universities=(Button) findViewById(R.id.universities);
+        lawfirms=(Button) findViewById(R.id.lawfirms);
+        businesspeople=(Button) findViewById(R.id.businesspeople);
+        doctors=(Button) findViewById(R.id.doctors);
+        nurses=(Button) findViewById(R.id.nurses);
+        primaryscchoolteachers=(Button) findViewById(R.id.primaryschoolteachers);
+        highschoolteachers=(Button) findViewById(R.id.highschoolteachers);
+        musictechers=(Button) findViewById(R.id.musicteachers);
+        lawyers=(Button) findViewById(R.id.lawyers);
+        developer=(Button) findViewById(R.id.softwareDevelopers);hotel=(Button) findViewById(R.id.hotelAccommodation);beautician=(Button) findViewById(R.id.beauticians);transport=(Button) findViewById(R.id.travelTransport);retailer=(Button) findViewById(R.id.retailers);
         highschools.setOnClickListener(this);universities.setOnClickListener(this);lawfirms.setOnClickListener(this);businesspeople.setOnClickListener(this);doctors.setOnClickListener(this);
         nurses.setOnClickListener(this);primaryscchoolteachers.setOnClickListener(this);highschoolteachers.setOnClickListener(this);
         musictechers.setOnClickListener(this);lawyers.setOnClickListener(this);developer.setOnClickListener(this);hotel.setOnClickListener(this);beautician.setOnClickListener(this);transport.setOnClickListener(this);retailer.setOnClickListener(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //The crunkiest code I have possible seen this far, this piece of shit looks like some historybook
     }
 
     @Override

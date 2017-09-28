@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_gallery) {
-            Uri uri = Uri.parse( "http://www.zebaki.co.ke" );
+            Uri uri = Uri.parse( "http://www.zebaki.co.ke/555" );
             startActivity( new Intent( Intent.ACTION_VIEW, uri ) );
 
 
@@ -141,9 +141,9 @@ public class MainActivity extends AppCompatActivity
     }
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new tab1(), "map");
-        adapter.addFragment(new tab2(), "make referral");
-        adapter.addFragment(new tab3(), " my account");
+        adapter.addFragment(new tab1(), "WhatsIn?");
+        adapter.addFragment(new tab2(), "Sell");
+        adapter.addFragment(new tab3(), "My Account");
         viewPager.setAdapter(adapter);
     }
 

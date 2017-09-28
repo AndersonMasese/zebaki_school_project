@@ -7,9 +7,9 @@ android {
         applicationId "com.zpanel.anderson.zebaki"
         minSdkVersion 15
         targetSdkVersion 25
-        versionName '7.0'
+        versionName '17.0'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        versionCode 7
+        versionCode 17
     }
     buildTypes {
         release {

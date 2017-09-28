@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 
 
@@ -23,12 +24,12 @@ public class tab1 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View myView= inflater.inflate(R.layout.fragment_tab1, container, false);
-        ImageView img1 = (ImageView)myView.findViewById(R.id.imageView3);
-        ImageView img2 = (ImageView)myView.findViewById(R.id.imageView4);
-        ImageView img3 = (ImageView) myView.findViewById(R.id.imageView5);
-        ImageView img4 = (ImageView)myView.findViewById(R.id.imageView7);
-        ImageView img5 = (ImageView)myView.findViewById(R.id.imageView8);
-        ImageView img6 = (ImageView)myView.findViewById(R.id.imageView10);
+        Button img1 = (Button)myView.findViewById(R.id.imageView3);
+        Button img2 = (Button)myView.findViewById(R.id.imageView4);
+        Button img3 = (Button) myView.findViewById(R.id.imageView5);
+        Button img4 = (Button)myView.findViewById(R.id.imageView7);
+        Button img5 = (Button)myView.findViewById(R.id.imageView8);
+        Button img6 = (Button)myView.findViewById(R.id.imageView10);
         img1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent=new Intent(getActivity(),Money.class);

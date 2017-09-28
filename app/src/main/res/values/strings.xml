@@ -12,10 +12,11 @@
     <string name="book">BOOK</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_campuses">Campuses</string>
-    <string name="title_activity_t">T</string>
+    <string name="title_activity_t" translatable="false">T</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
     <string-array name="countries">
+        <item>Choose Country</item>
         <item>Kenya</item>
         <item>Uganda</item>
         <item>Tanzania</item>
